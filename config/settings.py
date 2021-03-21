@@ -38,8 +38,8 @@ SECRET_KEY = secret_value("SECRET_KEY")
 DEBUG = secret_value("DEBUG")
 
 ALLOWED_HOSTS = [
-    "127.0.0.1:8000",
-    "localhost:8000"
+    "127.0.0.1",
+    "localhost"
 ]
 
 # Application definition
