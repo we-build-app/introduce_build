@@ -1,14 +1,21 @@
+{% extends 'base.html' %}
+
 <!DOCTYPE html>
 <html lang="ko">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>We Build App</title>
+    {% block title %}
+    We Build App
+    {% endblock %}
 </head>
 
 <body>
-    <h1>Index Page</h1>
+    {% block content %}
+    <section id="section">
+        <h1>Index Page</h1>
+    </section>
+    {% endblock %}
+
 </body>
 
 </html>
