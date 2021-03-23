@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+/* @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap'); */
 
-@font-face {
+/* @font-face {
   font-family: Bebas;
   src: url('../fonts/BebasKai-Regular.otf');
-}
+} */
 
-* {
+/* * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -17,16 +18,16 @@ body {
   height: 100%;
   color: #fff;
   background-color: #000;
-  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  font-family: Noto Sans KR, Montserrat, Arial, Helvetica, sans-serif;
   font-weight: 700;
 }
 
 a {
   text-decoration: none;
   color: #fff;
-}
+} */
 
-.btn {
+/* .btn {
   border: 1.5px solid #fff;
   border-radius: 0.75rem;
   padding: 0.75rem 1.25rem;
@@ -36,7 +37,7 @@ a {
 .btn:hover {
   color: #000;
   background: #fff;
-}
+} */
 
 .wrapper {
   height: 100vh;
@@ -61,35 +62,35 @@ a {
 }
 
 .sky {
-  background: url('../img/sky.png') no-repeat center;
+  background: url('/static/images/sky.png') no-repeat center;
   background-size: cover;
   transform: translateZ(-600px) scale(3);
   z-index: 1;
 }
 
 .bushes {
-  background: url('../img/bushes.png') no-repeat center;
+  background: url('/static/images/bushes.png') no-repeat center;
   background-size: cover;
   transform: translateZ(-525px) scale(2.75);
   z-index: 2;
 }
 
 .water {
-  background: url('../img/water.png') no-repeat center;
+  background: url('/static/images/water.png') no-repeat center;
   background-size: cover;
   transform: translateZ(-400px) scale(2.33333333);
   z-index: 3;
 }
 
 .people1 {
-  background: url('../img/people1.png') no-repeat center;
+  background: url('/static/images/people1.png') no-repeat center;
   background-size: cover;
   transform: translateZ(-250px) scale(1.833333333);
   z-index: 4;
 }
 
 .people2 {
-  background: url('../img/people2.png') no-repeat center;
+  background: url('/static/images/people2.png') no-repeat center;
   background-size: cover;
   transform: translateZ(-125px) scale(1.4167);
   z-index: 5;
